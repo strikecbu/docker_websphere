@@ -1,6 +1,13 @@
-# 此版本結合was 與 sqlserver JNDI設定 
-# JNDI name: jdbc/ccdb3
-# binding sqlserver host: sqlserver
+#此版本結合was 與 sqlserver JNDI設定
+#user: wsadmin
+#password: p@ssw0rd
+#JNDI name: jdbc/ccdb3
+
+#binding sqlserver info:
+#host: sqlserver
+#user: sa
+#password: p@ssw0rd
+
 
 # source setting
 FROM ibmcom/websphere-traditional:8.5.5.9-profile
