@@ -26,6 +26,8 @@ password: p@ssw0rd
 
 WAS files loacation
 ===================
+如果要變更SQL server的連線設定，或是WAS Debugger mode設定
+
 Microsoft JDBC Driver path ver maping 
 -------------------------------------
 	/opt/IBM/WebSphere/AppServer/profiles/AppSrv01/config/cells/DefaultCell01/nodes/DefaultNode01/servers/server1/variables.xml
