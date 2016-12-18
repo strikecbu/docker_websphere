@@ -15,14 +15,30 @@ third -v : for project in windows, link D:/ to this
 
 WAS settings
 ===============
-user: wsadmin
-password: p@ssw0rd
+user: wsadmin 
+spassword: p@ssw0rd
 
 SQL server settings
 ===================
-host: sqlserver
-user: sa
+host: sqlserver 
+user: sa 
 password: p@ssw0rd
+
+WAS files loacation
+===================
+Microsoft JDBC Driver path ver maping 
+-------------------------------------
+	/opt/IBM/WebSphere/AppServer/profiles/AppSrv01/config/cells/DefaultCell01/nodes/DefaultNode01/servers/server1/variables.xml
+Datasource settings
+-------------------
+	/opt/IBM/WebSphere/AppServer/profiles/AppSrv01/config/cells/DefaultCell01/nodes/DefaultNode01/servers/server1/resources.xml
+Login DB user settings
+----------------------
+	/opt/IBM/WebSphere/AppServer/profiles/AppSrv01/config/cells/DefaultCell01/security.xml
+WAS debugger mode settings
+--------------------------
+/opt/IBM/WebSphere/AppServer/profiles/AppSrv01/config/cells/DefaultCell01/nodes/DefaultNode01/servers/server1/server.xml
+
 
 
 
