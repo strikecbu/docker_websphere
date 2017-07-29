@@ -35,10 +35,15 @@ ADD PASSWORD /tmp
 
 # create fake D with project
 # add an empty folder 
-COPY D/ /opt/IBM/WebSphere/AppServer/profiles/AppSrv01
+COPY folderToServer/D/ /opt/IBM/WebSphere/AppServer/profiles/AppSrv01
 
 # link D to D: 
 RUN ln -s /opt/IBM/WebSphere/AppServer/profiles/AppSrv01/D /opt/IBM/WebSphere/AppServer/profiles/AppSrv01/D:
+
+# Set the locale
+ENV LANG C.UTF-8
+ENV LANGUAGE en_US:en  
+ENV LC_ALL C.UTF-8
 
 # open port
 EXPOSE 9443
